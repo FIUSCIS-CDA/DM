@@ -7,7 +7,7 @@ module DM(a, rd, wd, we);
    
    reg [31:0] memory [0:1023];
    
-   always @(we) begin
+   always @(*) begin
      if (we) begin
          memory[a >> 2] = wd;
       end
