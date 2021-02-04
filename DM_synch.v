@@ -1,5 +1,5 @@
 //`timescale 1ns / 1ps
-`timescale 100ps / 1ps
+//`timescale 100ps / 1ps
 module DM_synch(clk, a, rd, wd, we); 
    input clk;   
    input[31:0] a;
