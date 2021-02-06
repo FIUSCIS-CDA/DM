@@ -1,4 +1,4 @@
-
+// Asynchronous, latency=90
 module DM_asynch(a, rd, wd, we);    
    input[31:0] a;
    input we;
