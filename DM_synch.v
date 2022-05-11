@@ -1,4 +1,11 @@
-//Synchronous
+///////////////////////////////////////////////////////////////////////////////////
+// Testbench for Component: DM_synch 
+// Package: FIUSCIS-CDA
+// Course: CDA3102 (Computer Architecture), Florida International University
+// Developer: Trevor Cickovski
+// License: MIT, (C) 2020 All Rights Reserved
+///////////////////////////////////////////////////////////////////////////////////
+
 module DM_synch(clk, a, rd, wd, we); 
    input clk;   
    input[31:0] a;

@@ -1,4 +1,11 @@
-// Asynchronous, latency=90
+///////////////////////////////////////////////////////////////////////////////////
+// Testbench for Component: DM_asynch (Latency=90)
+// Package: FIUSCIS-CDA
+// Course: CDA3102 (Computer Architecture), Florida International University
+// Developer: Trevor Cickovski
+// License: MIT, (C) 2020 All Rights Reserved
+///////////////////////////////////////////////////////////////////////////////////
+
 module DM_asynch(a, rd, wd, we);    
    input[31:0] a;
    input we;
@@ -16,5 +23,5 @@ module DM_asynch(a, rd, wd, we);
      buffer = memory[a >> 2];
    end
    
-   assign rd = buffer;//memory[a >> 2];
+   assign rd = buffer;
 endmodule
