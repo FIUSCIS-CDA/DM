@@ -26,9 +26,18 @@ wire[31:0] readdataAsynch;
 /////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////
 
+DM_synch DMemorySynch(
+	.clk(clk),
+	.a(addr),
+	.rd(readdataSynch),
+        .wd(writedata),
+        .we(we));
 
-DM_synch DMemorySynch(clk, addr, readdataSynch, writedata, we);
-DM_asynch DMemoryAsynch(addr, readdataAsynch, writedata, we);
+DM_asynch DMemoryAsynch(
+.a(addr), 
+.rd(readdataAsynch), 
+.wd(writedata), 
+.we(we));
 
 
 initial begin
