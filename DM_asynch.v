@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////////////////////////////////
-// Testbench for Component: DM_asynch (Latency=90)
+// Component: DM_asynch (Latency=90)
 // Package: FIUSCIS-CDA
 // Course: CDA3102 (Computer Architecture), Florida International University
 // Developer: Trevor Cickovski
