@@ -17,7 +17,7 @@ module testbench();
 reg[31:0] addr;
 reg[31:0] writedata;
 reg we;
-reg clk;
+reg clk; // Clock it at 200
 /////////////////////////////////////////////////////////////
 // Outputs: readdataSynch (32-bit, synchronous only)
 //          readdataAsynch (32-bit, asynchronous only)
